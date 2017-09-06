@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="co.com.etn.calcetn.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_vertical_margin"
+            >
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/edittext_margin_number1"
+                    >
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtNumber1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/text_number1"
+                            android:inputType="number"
+                            />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/edittext_margin_number1"
+                    >
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtNumber2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/text_number2"
+                            android:inputType="number"
+                            />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fabSum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_margin="@dimen/fab_margin"
+                            app:srcCompat="@drawable/ic_sum"
+                            android:onClick="sum"
+
+                            />
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fabSubtraction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_margin="@dimen/fab_margin"
+                            app:srcCompat="@drawable/ic_min"
+                            android:onClick="subtract"
+
+
+                            />
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fabMultiplication"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_margin="@dimen/fab_margin"
+                            app:srcCompat="@drawable/ic_mult"
+                            android:onClick="multiply"
+                            />
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fabDivision"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_margin="@dimen/fab_margin"
+                            app:srcCompat="@drawable/ic_div"
+                            android:onClick="divide"
+
+
+                            />
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

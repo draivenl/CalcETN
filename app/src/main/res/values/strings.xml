@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculadora ETN</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="text_number1">Numero1</string>
+    <string name="text_number2">Numero2</string>
+    <string name="str_result_sum">Resultado de la Suma</string>
+    <string name="str_result_subtract">Resultado de la Resta</string>
+    <string name="str_result_multiply">Resultado de la Multiplicación</string>
+    <string name="str_result_divide">Resultado de la División ENTERA</string>
+    <string name="str_error_divide">Error en la división</string>
+</resources>
